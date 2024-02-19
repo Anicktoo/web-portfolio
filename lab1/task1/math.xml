@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE строка SYSTEM "C:\Users\User\Desktop\lab_1\lab1\task1\task11.dtd">
-<строка xmlns="http://www.w3.org/1999/xhtml">
+<?xml-stylesheet type="text/xsl" href="math.xsl"?>
+<строка>
     <операнд>σ</операнд>
     <оператор>=</оператор>
     <корень>
