@@ -9,12 +9,19 @@
             </head>
             <body>
                 <h4 id="author" title="Anicktoo">Толстухин Никита (с)2024</h4>
-                <p><a href="/web-portfolio">Вернуться на главную страницу</a></p>
-                <math xmlns="http://www.w3.org/1998/Math/MathML" display="block" style="width: min-content">
-                    <mstyle displaystyle="true">
-                        <xsl:apply-templates/>
-                    </mstyle>
-                </math>
+                <p>
+                    <a href="/web-portfolio">Вернуться на главную страницу</a>
+                </p>
+                <div style="width: min-content">
+                    <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                        <mstyle displaystyle="true">
+                            <xsl:apply-templates/>
+                        </mstyle>
+                    </math>
+                </div>
+                <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"/>
+                <script id="MathJax-script" async="true"
+                        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"/>
             </body>
         </html>
     </xsl:template>
